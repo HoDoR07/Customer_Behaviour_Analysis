@@ -1,13 +1,9 @@
-# Customer_Behaviour_Analysis
-Customer Behavior Analysis using Python, SQL, and Power BI. Cleaned and transformed customer data, loaded it into PostgreSQL, analyzed purchasing patterns and customer segments using SQL, and visualized insights through interactive Power BI dashboards.
-
 # 📊 Customer Behavior Analysis Project
 
 ## 📌 Project Overview
 
 This project focuses on analyzing customer shopping behavior to uncover insights related to purchasing patterns, customer segments, discounts, subscriptions, and revenue contribution. The project uses **Python for data cleaning and transformation**, **PostgreSQL & SQL for analysis**, and is designed to support **business decision-making through structured data insights**.
 
----
 
 ## 🛠️ Tools & Technologies Used
 
@@ -17,7 +13,6 @@ This project focuses on analyzing customer shopping behavior to uncover insights
 * **Power BI** (for visualization)
 * **CSV Dataset**
 
----
 
 ## 📂 Dataset Description
 
@@ -32,7 +27,7 @@ The dataset (`customer_shopping_behavior.csv`) contains customer-level informati
 * Purchase Frequency
 * Previous Purchases
 
----
+
 
 ## ⚙️ Data Processing (Python)
 
@@ -49,7 +44,7 @@ The following data preprocessing steps were performed using **Python (Pandas)**:
 * Removed redundant columns
 * Loaded the cleaned data into **PostgreSQL** using SQLAlchemy
 
----
+
 
 ## 🗄️ Database Integration
 
@@ -57,7 +52,7 @@ The following data preprocessing steps were performed using **Python (Pandas)**:
 * Loaded the cleaned dataset into a table named `customer`
 * Enabled SQL-based analytical queries for deeper insights
 
----
+
 
 ## 📈 SQL Analysis Performed
 
@@ -74,7 +69,7 @@ The following business questions were answered using SQL:
 9. Subscription likelihood among **repeat buyers**
 10. Revenue contribution by **Age Group**
 
----
+
 
 ## 📊 Visualization
 
@@ -85,7 +80,7 @@ The analyzed data was visualized using **Power BI**, including:
 * Product performance analysis
 * Subscription and discount impact analysis
 
----
+
 
 ## 🎯 Key Insights
 
@@ -94,7 +89,7 @@ The analyzed data was visualized using **Power BI**, including:
 * Middle-aged and adult customers contribute the highest revenue
 * Repeat buyers show a stronger tendency to subscribe
 
----
+
 
 ## 🚀 How to Run the Project
 
@@ -110,10 +105,10 @@ The analyzed data was visualized using **Power BI**, including:
 6. Execute SQL queries for analysis
 7. Connect Power BI to PostgreSQL for visualization
 
----
+
 
 ## 📌 Conclusion
 
 This project demonstrates an **end-to-end data analytics workflow**, covering data cleaning, feature engineering, database integration, SQL analysis, and dashboard creation. It highlights practical skills required for a **Data Analyst role**, including Python, SQL, and business-focused analysis.
 
----
+
